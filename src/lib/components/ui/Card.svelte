@@ -19,6 +19,11 @@
     btn = false, 
     backgroundImage = undefined 
   }: Props = $props();
+
+  const email = "matthewameh007@gmail.com";
+  const subject = "Approval of Hire Letter";
+
+  const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}`
 </script>
 
 <div class="flex flex-col space-y-2">
@@ -44,7 +49,7 @@
           title="Hire Me"
           class="bg-primary/70 hover:bg-crimson/80 hover:text-black backdrop-blur-md w-48 cursor-pointer text-white"
           icon={SendHorizontal}
-          link="/contact"
+          link={mailtoLink}
         />
       </div>
     {/if}

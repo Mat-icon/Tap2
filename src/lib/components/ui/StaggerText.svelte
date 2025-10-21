@@ -13,7 +13,6 @@ onMount(() => {
 
   const splitHero = new SplitType(heroEl, { lineClass: "overflow-hidden" });
 
-  // Animate words in sequence
   if (splitHero && splitHero.words) {
     animate(
       splitHero.words,

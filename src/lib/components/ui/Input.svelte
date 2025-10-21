@@ -5,7 +5,6 @@
   export let label = '';
   export let required = false;
 
-  // Generate a unique ID for accessibility
   let inputId = `input-${Math.random().toString(36).substr(2, 9)}`;
 </script>
 

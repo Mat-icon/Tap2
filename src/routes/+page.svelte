@@ -4,7 +4,6 @@
   import Options from "$lib/components/Options.svelte";
 </script>
 
-
 <Hero />
 <Options />
 <GetToKnow />
