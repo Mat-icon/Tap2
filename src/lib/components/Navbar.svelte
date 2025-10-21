@@ -13,7 +13,7 @@
 </script>
 
 <nav class="w-full mx-auto font-heading fixed top-2 px-3 left-0 z-50">
-  <div class="w-full md:w-3/4 border border-primary/10 xl:w-2/4 bg-white/80 backdrop-blur-md rounded-xl  mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="w-full md:w-11/12 lg:w-4/5  border border-primary/10 xl:w-2/4 bg-white/80 backdrop-blur-md rounded-xl  mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16 items-center">
       
       <div>

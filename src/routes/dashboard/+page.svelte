@@ -24,8 +24,7 @@
   let showEditModal = false;
   let showDeleteModal = false;
   let isSubmitting = false;
-  
-  // Toast notification state
+
   let message = '';
   let messageType: 'success' | 'error' = 'success';
   let showMessage = false;
@@ -81,7 +80,7 @@
     }
   }
 
-  // Update member
+
   async function updateMember() {
     if (!editMemberData.name?.trim() || !editMemberData.email?.trim()) {
       showToast('Name and email are required', 'error');
@@ -268,7 +267,7 @@
       <div class="overflow-x-auto">
         {#if isLoading}
           <div class="text-center py-16">
-            <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-blue-600 border-t-transparent"></div>
+            <div class="inline-block animate-spin rounded-full h-12 w-12 border-2 border-primary border-t-transparent"></div>
             <p class="mt-4 text-gray-600 font-medium">Loading members...</p>
           </div>
         {:else}
@@ -319,11 +318,11 @@
                   </td>
                   <td class="px-6 py-4 whitespace-nowrap text-center">
                     <Button
-    onClick={() => openEditModal(member)} 
-    icon={Edit2}
-    class="bg-primary hover:bg-crimson/80 hover:text-black w-30 text-white"
-    title="Edit"
-  />
+                      onClick={() => openEditModal(member)} 
+                      icon={Edit2}
+                      class="bg-primary hover:bg-crimson/80 hover:text-black w-30 text-white"
+                     title="Edit"
+                     />
                   </td>
                 </tr>
               {/each}
@@ -331,7 +330,7 @@
                 <tr>
                   <td colspan="5" class="px-6 py-16 text-center">
                     <svg class="mx-auto h-16 w-16 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                     </svg>
                     <p class="mt-4 text-gray-500 text-lg font-medium">No members found</p>
                     <p class="text-gray-400">Click "Add Member" to get started</p>

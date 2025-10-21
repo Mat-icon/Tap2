@@ -119,7 +119,7 @@
         <Button
           title="Send Message"
           link="/find-products"
-          class="bg-black/90 hover:bg-primary/40 hover:text-black w-full text-white"
+          class="bg-primary hover:bg-crimson/80 hover:text-primary w-full text-white"
           icon={SendHorizontal}
         />
       </form>

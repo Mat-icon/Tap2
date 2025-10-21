@@ -87,7 +87,7 @@ animate(
 
 <section  bind:this={sectionRef} class="max-w-screen-2xl mx-auto font-heading py-12 bg-[whitesmoke] md:py-20 px-4 md:px-10 xl:px-16">
   <div class="container mb-10 flex flex-col md:flex-row lg:justify-between">
-    <h2 class="w-full flex flex-col mx-auto xl:mx-0 text-center md:text-left lg:w-3/6 text-3xl xl:text-5xl font-heading1">
+    <h2 class="w-full flex flex-col mx-auto lg:mx-0 text-center md:text-left lg:w-3/6 text-3xl xl:text-5xl font-heading1">
       <span
         class="w-fit text-black mx-auto md:mx-0 font-light mb-2 text-sm tracking-normal font-heading py-1 px-4 bg-crimson/20 rounded-full">
         Our Services We Provide
