@@ -16,7 +16,6 @@
   <div class="w-full md:w-3/4 border border-primary/10 xl:w-2/4 bg-white/80 backdrop-blur-md rounded-xl  mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16 items-center">
       
-      <!-- Logo -->
       <div>
         <p class="font-extrabold text-primary  text-lg md:text-xl tracking-tighter">
           Tap2 
@@ -26,7 +25,6 @@
         </p>
       </div>
 
-      <!-- Desktop Menu -->
       <div class="hidden md:flex text-sm space-x-2">
         {#each links as { href, label }}
           <a href={href} class="text-black hover:bg-primary/10 py-2 px-4 rounded-xl transition">
@@ -35,7 +33,6 @@
         {/each}
       </div>
 
-      <!-- Mobile Menu Button -->
       <button 
         class="md:hidden focus:outline-none text-xl"
         on:click={() => menuOpen = !menuOpen}
@@ -51,13 +48,11 @@
     </div>
   </div>
 
-  <!-- Mobile Full-Screen Drawer -->
   {#if menuOpen}
     <div
       transition:fly={{ x: 400, duration: 400 }}
       class="fixed top-0 right-0 h-screen w-full sm:w-2/4 bg-white shadow-2xl z-40 flex flex-col justify-center items-center space-y-8"
     >
-      <!-- Close Button -->
       <button 
         class="absolute top-5 right-6 text-2xl focus:outline-none"
         on:click={() => menuOpen = false}
@@ -72,6 +67,7 @@
         <a
           href={href}
           transition:fly={{ y: 30, duration: 300, delay: 400 + i * 120 }}
+           on:click={() => (menuOpen = false)}
           class="block text-gray-800 text-2xl  uppercase tracking-tight hover:text-blue-600"
         >
           {label}

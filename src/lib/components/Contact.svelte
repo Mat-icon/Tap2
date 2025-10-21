@@ -8,16 +8,14 @@
 </script>
 
 <section class="w-full min-h-screen max-w-screen-2xl mx-auto overflow-hidden font-heading bg-[whitesmoke]">
-  <!-- Header Section -->
   <div class="flex flex-col-reverse md:flex-row xl:flex-row items-center justify-between h-[600px] md:h-[500px]">
-    <!-- Left side – Text -->
     <div class="flex-1 mt-6 md:mt-14 md:pl-12 flex flex-col text-center md:text-left px-6">
       <span class="w-fit text-primary mx-auto md:mx-0 font-light mb-2 text-sm tracking-normal  py-1 px-4 bg-crimson/20 rounded-full">
         Contact Us
       </span>
      <StaggerText
   text="Whether you’re onboarding new members, or analyzing engagement, our system simplifies every step."
-  className="text-3xl text-left xl:text-5xl font-heading1 leading-12 text-black"
+  className="text-3xl text-center md:text-left xl:text-5xl font-heading1 leading-12 text-black"
 />
 
       <Button
