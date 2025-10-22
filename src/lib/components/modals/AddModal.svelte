@@ -46,7 +46,7 @@
             </label>
             <input 
               class="w-full px-4 py-3 border-2 border-gray-200 text-sm md:text-base rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" 
-              placeholder="+1 (555) 000-0000" 
+              placeholder="+234 (802) 000-0000" 
               bind:value={newMember.phone}
               disabled={isSubmitting}
             />
