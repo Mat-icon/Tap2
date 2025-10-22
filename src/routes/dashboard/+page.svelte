@@ -191,13 +191,13 @@
     </div>
 
     <!-- Stats Cards -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
       <!-- Total Members Card -->
-      <div class="bg-white rounded-xl border border-primary/10  p-6">
+      <div class="bg-white rounded-xl border border-primary/10 py-8 px-6">
         <div class="flex items-center justify-between">
           <div>
             <p class="text-xs md:text-sm font-medium text-primary uppercase tracking-wide">Total Members</p>
-            <p class="text-3xl md:text-5xl font-heading1 text-primary mt-2">{totalMembers}</p>
+            <p class="text-4xl md:text-5xl font-heading1 text-primary mt-2">{totalMembers}</p>
           </div>
           <div class="bg-primary/10 rounded-xl p-2">
             <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -212,7 +212,7 @@
         <div class="flex items-center justify-between">
           <div>
             <p class="text-xs md:text-sm font-medium text-primary uppercase tracking-wide">With Phone</p>
-            <p class="text-3xl md:text-5xl  font-heading1 text-primary mt-2">{membersWithPhone}</p>
+            <p class="text-4xl md:text-5xl  font-heading1 text-primary mt-2">{membersWithPhone}</p>
           </div>
           <div class="bg-primary/10 rounded-xl p-2">
             <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -227,7 +227,7 @@
         <div class="flex items-center justify-between">
           <div>
             <p class="text-xs md:text-sm font-medium text-primary uppercase tracking-wide">Selected</p>
-            <p class="text-3xl md:text-5xl   text-primary font-heading1 mt-2">{selectedCount}</p>
+            <p class="text-4xl md:text-5xl   text-primary font-heading1 mt-2">{selectedCount}</p>
           </div>
           <div class="bg-primary/10 rounded-xl p-2">
             <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">

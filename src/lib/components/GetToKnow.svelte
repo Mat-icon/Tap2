@@ -74,7 +74,7 @@ animate(
       class="animated-text max-w-3xl text-xl md:text-2xl xl:text-3xl font-heading1 text-primary leading-relaxed"
     >
       &lsquo;&lsquo;Transformed the way we experience creating and
-      managing efficiency. Their professionalism and modern approach made
+      managing efficiency. professionalism and modern approach made
       everything seamless.&rsquo;&rsquo;
     </p>
 
