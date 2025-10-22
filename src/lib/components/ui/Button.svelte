@@ -24,7 +24,7 @@
 </script>
 
 {#if link}
-  <a href={link}  target="_blank" class={`${baseClasses} bg-black ${className}`}>
+  <a href={link}  class={`${baseClasses} bg-black ${className}`}>
     <span class="flex-1 text-left">{title}</span>
     {#if icon}
       <span class="ml-auto p-3 md:p-3 rounded-sm bg-white text-black text-base">

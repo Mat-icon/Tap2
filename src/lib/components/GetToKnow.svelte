@@ -100,7 +100,7 @@ animate(
     <h3
       class="w-full md:w-1/2 animated-text text-4xl text-primary text-center md:text-left leading-snug font-heading1"
     >
-      Get in touch to know <br />Brabik&apos;s next steps.
+      Get in touch to know <br />Tap2&apos;s Member next steps.
     </h3>
 
     <div
