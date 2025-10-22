@@ -98,7 +98,7 @@ animate(
     class="container flex xl:flex-row flex-col items-center justify-between md:px-4 mx-auto"
   >
     <h3
-      class="w-full md:w-1/2 animated-text text-4xl text-primary text-center md:text-left leading-snug font-heading1"
+      class="w-full md:w-1/2 animated-text text-4xl text-primary text-center xl:text-left leading-snug font-heading1"
     >
       Get in touch to know <br />Tap2&apos;s Member next steps.
     </h3>
