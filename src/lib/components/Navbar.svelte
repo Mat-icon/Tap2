@@ -156,7 +156,7 @@
         
         <SignedIn>
           <div class="flex flex-col items-center gap-4">
-            <UserButton afterSignOutUrl="/" />
+            <UserButton afterSignOutUrl="/"  />
             {#if clerk.user?.primaryEmailAddress?.emailAddress}
               <p class="text-xs text-gray-600">
                 Signed in as {clerk.user.primaryEmailAddress.emailAddress}

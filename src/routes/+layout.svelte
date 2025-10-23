@@ -18,7 +18,11 @@ setupConvex(PUBLIC_CONVEX_URL);
 </svelte:head>
 
 
-<ClerkProvider publishableKey={PUBLIC_CLERK_PUBLISHABLE_KEY}>
+<ClerkProvider  appearance={{
+    variables: {
+      fontFamily: '"Plus Jakarta Sans", sans-serif',
+    }
+  }} publishableKey={PUBLIC_CLERK_PUBLISHABLE_KEY}>
   <Navbar />
 {@render children()}
 </ClerkProvider>
