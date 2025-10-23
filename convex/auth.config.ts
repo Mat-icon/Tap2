@@ -1,7 +1,7 @@
 export default {
   providers: [
     {
-      domain: "https://assuring-quail-54.clerk.accounts.dev",
+      domain: process.env.PUBLIC_CLERK_FRONTEND_API_URL!,
       applicationID: "convex",
     },
   ],
