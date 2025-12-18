@@ -41,7 +41,7 @@
       <div>
         <a href="/">
           <p class="font-extrabold text-primary text-lg md:text-xl tracking-tighter">
-            Tap2 
+            Tracker
             <span class="text-[4px] uppercase md:text-[8px] text-gray-500 font-medium tracking-wide">
               LT
             </span>

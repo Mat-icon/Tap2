@@ -15,7 +15,7 @@
       />
 
       <p class="text-gray-600 text-xs md:text-sm max-w-xl">
-        Tap2 helps you track customer loyalty effortlessly, rewarding repeat
+        Tracker helps you track customer loyalty effortlessly, rewarding repeat
         customers and growing your brand engagement.
       </p>
 

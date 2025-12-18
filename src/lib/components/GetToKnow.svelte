@@ -83,7 +83,7 @@ animate(
       <h3 class="text-black/80">
         Matthew Ameh,
         <span class="text-black/60">
-          Tap2 <small class="text-[8px]">MT</small>
+          Tracker <small class="text-[8px]">MT</small>
         </span>
       </h3>
     </div>
@@ -100,7 +100,7 @@ animate(
     <h3
       class="w-full md:w-1/2 animated-text text-4xl text-primary text-center xl:text-left leading-snug font-heading1"
     >
-      Get in touch to know <br />Tap2&apos;s Member next steps.
+      Get in touch to know <br />Tracker&apos;s Member next steps.
     </h3>
 
     <div
